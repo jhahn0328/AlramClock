@@ -1,9 +1,55 @@
-﻿빌드 시작: 2020-01-17 오전 9:03:04
-     1>2 노드의 "C:\Users\안지호\Desktop\ClockDialog\ClockDialog\ClockDialog.vcxproj" 프로젝트(Build 대상)입니다.
-     1>Link:
-         ClockDialog.vcxproj -> C:\Users\안지호\Desktop\ClockDialog\Debug\ClockDialog.exe
-     1>"C:\Users\안지호\Desktop\ClockDialog\ClockDialog\ClockDialog.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+﻿빌드 시작: 2020-01-17 오전 9:14:21
+     1>2 노드의 "C:\dev\새 폴더\AlramClock\ClockDialog\ClockDialog\ClockDialog.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ClockDialog.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ClockDialog.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ClockDialog.cpp ClockDialogDlg.cpp DlgAddAlarm.cpp
+         DlgAddAlarm.cpp
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(162): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(163): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(164): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(165): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(166): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(167): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(168): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(174): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(176): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(178): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(180): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(182): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(184): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(186): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\string.h(118) : 'strcat' 선언을 참조하십시오.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\dlgaddalarm.cpp(263): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : 'sprintf' 선언을 참조하십시오.
+         ClockDialogDlg.cpp
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.h(195): warning C4129: 's' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.cpp(166): warning C4129: 'S' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.cpp(166): warning C4129: 'A' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.cpp(166): warning C4129: 'T' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.cpp(166): warning C4129: 'D' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.cpp(166): warning C4129: ')' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.cpp(360): warning C4244: '인수' : 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+         ClockDialog.cpp
+     1>c:\dev\새 폴더\alramclock\clockdialog\clockdialog\clockdialogdlg.h(195): warning C4129: 's' : 문자 이스케이프 시퀀스를 인식할 수 없습니다.
+         코드를 생성하고 있습니다...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0412" /IDebug\ /nologo /fo"Debug\ClockDialog.res" ClockDialog.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\dev\새 폴더\AlramClock\ClockDialog\Debug\ClockDialog.exe" /INCREMENTAL /NOLOGO sqlite3.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\dev\새 폴더\AlramClock\ClockDialog\Debug\ClockDialog.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\dev\새 폴더\AlramClock\ClockDialog\Debug\ClockDialog.lib" /MACHINE:X86 Debug\ClockDialog.res
+         Debug\ClockDialog.obj
+         Debug\ClockDialogDlg.obj
+         Debug\DlgAddAlarm.obj
+         Debug\stdafx.obj
+         ClockDialog.vcxproj -> C:\dev\새 폴더\AlramClock\ClockDialog\Debug\ClockDialog.exe
+     1>"C:\dev\새 폴더\AlramClock\ClockDialog\ClockDialog\ClockDialog.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
 
 빌드했습니다.
 
-경과 시간: 00:00:00.60
+경과 시간: 00:00:04.64
